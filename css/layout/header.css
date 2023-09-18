@@ -14,6 +14,12 @@
     width: 100%;
     height: 100%;
     background: #FFF;
+    transform: translateX(100%);
+    transition: transform 250ms;
+}
+
+.mobile-menu.is-open {
+    transform: translateX(0);
 }
 
 .logo-word {
