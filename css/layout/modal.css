@@ -26,6 +26,111 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
 }
+.mobile-menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    max-width: 767px;
+    min-height: 584px;
+    background: #fcfcfc;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
+}
+
+.mobile-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    
+}
+.mobile-list-contact {
+gap: 40px;
+}
+
+.address-mobile-menu {
+        display: flex;
+            flex-direction: column;
+            gap: 24;
+            margin-top: 168px;
+}
+
+.address-mobile-menu-list {
+font-style: normal;
+}
+
+.item-mobile-menu-address1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: #4D5AE5;
+}
+
+.item-mobile-menu-address {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: #434455;
+}
+
+
+.item-mobile-menu {
+color:  #2E2F42;
+
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.color-adress {
+    color: color:  #4D5AE5;
+   
+}
+
+.color-adress1 {
+    color: #2E2F42;
+
+}
+
+.studio-mobile-menu {
+    color: var(--OCEAN, #404BBF);
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.social-mobile-menu {
+    margin-top: 48px;
+}
+
+@media screen and (min-width:768px) {
+    
+
+.mobile-menu-display {
+    display: none;
+}
+
+}
 
 .icon-form-closed {
     width: 8px;

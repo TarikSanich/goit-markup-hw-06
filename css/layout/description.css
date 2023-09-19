@@ -1,5 +1,100 @@
 
+.discription-icon {
+    display: none;
+}
 
+.description-container {
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+        position: relative;
+            overflow: hidden;
+}
+
+.description {
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 72px;
+}
+.list-description {
+    flex-direction: column;
+    gap: 72px;
+}
+.title-description {
+    
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    color: #2E2F42;
+    text-align: center;
+
+}
+
+.content-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    align-self: stretch;
+        color: var(--SLATE, #434455);
+}
+
+@media screen and (min-width:768px) {
+    .content-description {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        .description {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 72px;
+        }
+
+.list-description {
+        display: flex;
+            flex-wrap: wrap;
+            column-gap: 24px;
+            row-gap: 48px;
+            transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+}
+
+.list-description-items {
+    width: calc((100% - 32px) / 2);
+}
+}
+
+
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+
+                .list-portfolio-item {
+                    width: calc((100% - 24 * 4) / 6);
+                    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+                }
+
+@media screen and (min-width:1024px) {
+    .content-description{
+        width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* 
 .title-description {
     color: #2e2f42;
     font-size: 20px;
@@ -39,12 +134,9 @@
 
 .discription-icon {
     display: flex;
-    /* position: relative;
-    top: 24px;
-    left: 100px;
-    justify-content: center; */
+
     width: 64px;
     height: 64px;
     flex-shrink: 0;
 
-}
+} */
