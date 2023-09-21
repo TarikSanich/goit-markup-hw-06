@@ -16,6 +16,7 @@
 .list-description {
     flex-direction: column;
     gap: 72px;
+
 }
 }
 
@@ -162,6 +163,7 @@
 .list-description {
     display: flex;
     gap: 24px;
+
 }
 
 .list-description-items {
@@ -188,5 +190,10 @@
     height: 64px;
     flex-shrink: 0;
 
+}
+.description-container {
+display: flex;
+    justify-content: center;
+    
 }
 }

@@ -178,6 +178,13 @@ display: inline-flex;
 
 }
 
+@media screen and (min-width:768px) {
+    .open-menu-mobile-btn {
+        display: none;
+    }
+}
+
+
 @media screen and (min-width:1158px) {
 .open-menu-mobile-btn {
     display: none;
@@ -252,6 +259,7 @@ display: inline-flex;
 
 
 .item-address {
+    font-style: normal;
     display: flex;
     gap: 40px;
     margin-right: 40px;
@@ -339,4 +347,5 @@ display: inline-flex;
 :focus {
     color: #404bbf;
 }
+
 }
