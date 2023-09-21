@@ -1,4 +1,12 @@
 
+@media screen and (max-width:1158px) {
+
+    .discription-icon {
+        display: none;
+    }
+}
+
+
 @media screen and (max-width:767px) {
     
 .discription-icon {
@@ -46,20 +54,26 @@
     font-weight: 500;
     align-self: stretch;
         color: var(--SLATE, #434455);
+                width: 288px;
+
 }
 
 @media screen and (min-width:768px) {
     .content-description {
-        width: 768px;
-        margin-left: auto;
-        margin-right: auto;
+        width: 356px;
+
     }
         .description {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            
             gap: 72px;
+            text-align: left;
         }
+
+.title-description {
+    text-align: left;
+}
 
 .list-description {
     display: flex;
@@ -71,7 +85,10 @@
 
 .list-description-items {
     width: calc((100% - 32px) / 2);
+    text-align: left;
 }
+
+
 }
 
 
@@ -136,19 +153,10 @@
 
 
 @media screen and (min-width:1158px) {
-.title-description {
-    color: #2e2f42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    margin-bottom: 8px;
-}
+
 
 .content-description {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    width: 264px;
 }
 
 .list-description {
