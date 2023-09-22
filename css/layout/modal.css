@@ -98,7 +98,7 @@ color:  #2E2F42;
 }
 
 .color-adress {
-    color: color;  #4D5AE5;
+    color:  #4D5AE5;
    
 }
 
@@ -305,7 +305,6 @@ color:  #2E2F42;
 }
 
 
-.input-checkbox {}
 
 .input-checkbox:focus+.label-text>.icon-container {
     outline: 2px solid rgba(0, 0, 255, 0.5);
@@ -351,8 +350,6 @@ color:  #2E2F42;
     fill: transparent;
 }
 
-
-.icon-svg {}
 
 
 .privacy-policy-link {
