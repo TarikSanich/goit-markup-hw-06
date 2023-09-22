@@ -13,6 +13,16 @@
     background-position: center;
     background-size: cover;
 }
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .hero-section {
+        background-image: url(../../images/people-office-tab.jpg);
+    }
+}
+
+
 .title-hero {
     color: var(--white, #fff);
     text-align: center;
@@ -71,6 +81,17 @@
             background-position: center;
             background-size: cover;
         }
+
+  @media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
+      .hero-section {
+          background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                  rgba(46, 47, 66, 0.7)),
+              url(../../images/people-office.jpg);
+      }
+  }
+
     
 .title-hero {
     color: var(--white, #fff);
@@ -122,6 +143,9 @@
     background-size: cover;
 
 }
+
+
+
 
 .title-hero {
     color: var(--white, #fff);

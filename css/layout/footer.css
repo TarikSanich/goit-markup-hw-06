@@ -67,9 +67,8 @@
     letter-spacing: 0.02em;
     width: 264px;
     height: 72px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    
+
 }
 
 .link-footer {
@@ -106,6 +105,10 @@
 }
 
 @media screen and (max-width:767px) {
+
+    .footer-content {
+            text-align: center;
+        }
 .my-form-footer {
     display: flex;
     justify-content: center;
@@ -127,6 +130,11 @@
 
 
 } */
+
+
+@media screen and(min-width:768px) {
+
+}
 
 
 .input-email[type="email"] {
@@ -193,6 +201,17 @@
 
 }
 
+.footer-logo-container {
+
+
+    margin-left: 108px;
+
+}
+
+.container-form-footer {
+    margin-left: 90px;
+}
+
         .my-form-footer {
             display: flex;
             flex-direction: row;
@@ -217,6 +236,11 @@
             align-items: baseline;
             margin-right: 120px;
         }
+
+.container-social-footer {
+    margin-left: 120px;
+}
+
 .my-form-footer {
     
     display: flex;
@@ -224,16 +248,11 @@
     
 }
 
-.footer-logo-container {
-   
-    
-    margin-left: 108px;
-    
+.container-form-footer {
+    margin-left: 80px;
 }
 
-.container-form-footer {
-    margin-left: 90px;
-}
+
 
 
 }
