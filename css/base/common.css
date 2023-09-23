@@ -29,3 +29,8 @@ img {
     display: flex;
     gap: 40px;
 }
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
