@@ -102,10 +102,9 @@
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     padding-left: 16px;
     padding-top: 32px;
-    margin-bottom: 8px;
 }
 
 .image-portfolio {
