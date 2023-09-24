@@ -18,9 +18,44 @@
 screen and (min-resolution: 2dppx),
 screen and (min-device-pixel-ratio: 2) {
     .hero-section {
-        background-image: url(../../images/people-office-tab.jpg);
+        background-image: url(../../images/people-office-mobile2x.jpg);
     }
 }
+
+@media screen and (min-width:768px) {
+    .section-hero {
+
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/people-office-tab.jpg);
+            max-width: 1158px;
+        }
+    
+        @media screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx),
+        screen and (min-device-pixel-ratio: 2) {
+            .hero-section {
+                background-image: url(../../images/people-office-tab2x.jpg);
+            }
+        }
+}
+
+
+@media screen and (min-width:1158px) {
+    .section-hero {
+
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/people-office.jpg);
+            
+
+        }
+    
+        @media screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx),
+        screen and (min-device-pixel-ratio: 2) {
+            .hero-section {
+                background-image: url(../../images/people-office2x.jpg);
+            }
+        }
+}
+
 
 
 .title-hero {
