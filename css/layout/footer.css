@@ -104,7 +104,7 @@
 @media screen and (max-width:767px) {
 
 .footer-content {
-    text-align: center;
+    text-align: left;
         }
 .my-form-footer {
     display: flex;
@@ -129,6 +129,14 @@
 
 @media screen and(min-width:768px) {
 
+}
+
+.footer-social-paragraf {
+    text-align: left;
+}
+
+.form-paragraph {
+    text-align: left;
 }
 
 
